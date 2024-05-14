@@ -1,0 +1,57 @@
+/* CSS variables */
+:root {
+    --blue-color: #0B62BC;
+    --dark-gray-color: #333333;
+    --green-color: #4CAF50;
+    --navy-color: #073C64;
+
+    /* Hover */
+    --green-hover-color: #3a9b3f;
+    --green-border-hover-color: #2a8b2f;
+
+    /* Click */
+    --green-active-color: #348632;
+}
+
+body {
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Custom text color classes */
+.c-text-blue {
+    color: var(--blue-color);
+}
+
+.c-text-dark-gray {
+    color: var(--dark-gray-color);
+}
+
+/* Custom btn color classes */
+.c-btn-green {
+    background-color: var(--green-color);
+    border: 1px solid transparent;
+}
+
+.c-btn-green:hover {
+    background-color: var(--green-hover-color);
+    border-color: var(--green-border-hover-color);
+}
+
+.c-btn-green:active {
+    background-color: var(--green-active-color) !important;
+    border-color: var(--green-active-color), 5% !important;
+}
+
+/* Custom background color classes */
+.c-bg-navy {
+    background-color: var(--navy-color);
+}
+
+/* Custom utility classes */
+.c-line {
+    border-bottom: 2px solid var(--green-color);
+}
+
+.navbar {
+    height: 80px;
+}
