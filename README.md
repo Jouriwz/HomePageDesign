@@ -19,3 +19,6 @@
 - **HTML5:** For structuring the content.
 - **Bootstrap 5:** For styling and responsive layout.
 - **CSS3:** For additional styling and customization.
+
+## Figma
+https://www.figma.com/design/MoB3XBNJKACkWJLPZaJMud/Project?node-id=4-2&t=2M2iLRTxZFh2jzB3-1
